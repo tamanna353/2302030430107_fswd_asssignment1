@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="font-sans bg-gray-50">
+
+    <!-- Hero Section -->
+    <section id="hero" class="h-screen bg-blue-600 text-white flex flex-col justify-center items-center text-center">
+        <h1 class="text-4xl sm:text-5xl font-extrabold">Hello, I'm <span class="text-yellow-400">Your Name</span></h1>
+        <p class="mt-4 text-lg sm:text-xl">A passionate developer with a love for learning and building</p>
+        <a href="#projects" class="mt-6 px-6 py-3 bg-yellow-400 text-blue-600 font-semibold rounded-lg shadow-lg hover:bg-yellow-500 transition duration-300">See My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-semibold text-blue-600">About Me</h2>
+            <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">I'm a passionate web developer with experience in front-end and back-end technologies. I enjoy solving problems, building scalable applications, and continuously learning new skills to improve myself. When I'm not coding, I love exploring new technologies and contributing to open-source projects.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-semibold text-blue-600">My Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">HTML5</h3>
+                    <p class="mt-2 text-gray-600">I have a solid understanding of semantic HTML5 for creating clean and accessible web pages.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">CSS3 / Tailwind CSS</h3>
+                    <p class="mt-2 text-gray-600">I specialize in responsive design with CSS3 and Tailwind CSS to build user-friendly, scalable websites.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">JavaScript</h3>
+                    <p class="mt-2 text-gray-600">I am proficient in JavaScript, and I'm comfortable with both front-end (React, Vue) and back-end (Node.js) development.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">Git / GitHub</h3>
+                    <p class="mt-2 text-gray-600">I use Git for version control and GitHub for managing and sharing my projects.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">React</h3>
+                    <p class="mt-2 text-gray-600">I have experience building dynamic web applications with React and state management libraries like Redux.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600">Node.js</h3>
+                    <p class="mt-2 text-gray-600">I'm proficient in back-end development using Node.js, building APIs, and working with databases like MongoDB and SQL.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-semibold text-blue-600">Contact Me</h2>
+            <p class="mt-4 text-lg text-gray-600">Feel free to reach out to me for any questions or collaboration opportunities!</p>
+            <form action="#" method="POST" class="mt-8 max-w-2xl mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <input type="text" name="name" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm">
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm">
+                    </div>
+                </div>
+                <div class="mt-6">
+                    <textarea name="message" placeholder="Your Message" rows="4" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm"></textarea>
+                </div>
+                <button type="submit" class="mt-4 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 bg-gray-800 text-white text-center">
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
